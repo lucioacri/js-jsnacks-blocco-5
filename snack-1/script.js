@@ -2,7 +2,6 @@ const names = ["Edoardo", "Simone", "Francesco"];
 
 // Stampa in console tutti i nomi
 
-const arrayNames = names.map((name) => name);
-console.log(arrayNames);
+names.forEach((name) => console.log(name));
 
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
